@@ -1,0 +1,30 @@
+@media(max-width:768px){
+
+    .phone{
+        display: flex;
+        flex-direction: column;
+        
+    } 
+    .phone h2{
+        margin: auto;
+    }
+    .about-text h4{
+        font-size: 16px !important;
+    }
+    .text{
+        padding-top: 40px;
+    }
+    .header-btn{
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:450px){
+    iframe{
+        width: 200px;
+      
+    }
+    .phone h2{
+        font-size: 18px !important;
+    }
+}
